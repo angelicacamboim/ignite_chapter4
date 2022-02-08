@@ -23,8 +23,6 @@ export function ActiveLink({
 		!shouldMatchExactHref &&
 		(asPath.startsWith(String(rest.href)) || asPath.startsWith(String(rest.as)))
 	) {
-		console.log('rest.href', rest.href)
-		console.log('rest.as', rest.as)
 		isActive = true
 	}
 
